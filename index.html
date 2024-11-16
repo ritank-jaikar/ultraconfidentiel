@@ -642,8 +642,9 @@
         }
 
         .nav-menu-icon, .w-icon-nav-menu:before {
-            display: block;
+            display: none;
         }
+
         @media screen and (max-width: 350px) {
             .company-logo-nav {
                 height: 10px;
@@ -2344,6 +2345,16 @@
                 clearInterval(remove_made_in_webflow);
             }
         }, 10);
+
+        setTimeout(() => {
+            const styleElement = document.createElement('style');
+            styleElement.textContent = `
+                .nav-menu-icon, .w-icon-nav-menu:before {
+                    display: block; /* Updated style */
+                }
+            `;
+            document.head.appendChild(styleElement);
+        }, 4000);
     </script>
   </body>
 </html>
