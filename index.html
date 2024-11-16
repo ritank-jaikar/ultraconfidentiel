@@ -2351,6 +2351,19 @@
             `;
             document.head.appendChild(styleElement);
         }, 4000);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            //console.log(sessionStorage);
+            if (!sessionStorage.getItem('animationPlayed')) {
+                sessionStorage.setItem('animationPlayed', 'true');
+                
+                // Trigger Webflow interactions
+                Webflow.require('ix2').init(); // Initializes all Webflow interactions
+                
+                // Optionally, scroll to top before triggering (to reset state):
+                window.scrollTo(0, 0);
+            }
+        });
     </script>
   </body>
 </html>
