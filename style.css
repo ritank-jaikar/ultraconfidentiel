@@ -1,0 +1,140 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav-menu-icon,
+.w-icon-nav-menu:before {
+  display: none;
+}
+
+@media screen and (max-width: 350px) {
+  .company-logo-nav {
+    height: 10px;
+  }
+
+  .company-logo-nav.slassh {
+    left: 40px;
+  }
+
+  .ultra-confidentiel {
+    gap: 6px;
+  }
+
+  .primary-button.contact-us {
+    width: 84px;
+    height: 28px;
+  }
+}
+
+
+
+
+
+
+
+
+.nav-container {
+    position: relative;
+}
+
+.brand {
+    opacity: 0;
+}
+
+.brand._2 {
+    opacity: 1;
+    position: absolute;
+    display: block;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: visible;
+}
+
+.ultra-confidentiel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(3.2);
+    animation: brand-loading 1s linear 4.06s forwards;
+}
+
+@keyframes brand-loading {
+    0% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(3.2);
+    }
+    100% {
+        top: 29px;
+        left: 0;
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ultra-confidentiel-wrapper {
+        transform: translate(-50%, -50%) scale(2.6);
+    }
+
+    @keyframes brand-loading {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(2.6);
+        }
+        100% {
+            top: 24px;
+            left: 0;
+            transform: translate(0, 0) scale(1);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ultra-confidentiel-wrapper {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    @keyframes brand-loading {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        100% {
+            top: 20px;
+            left: 0;
+            transform: translate(0, 0) scale(1);
+        }
+    }
+}

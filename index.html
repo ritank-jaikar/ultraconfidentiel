@@ -614,57 +614,8 @@
       rel="apple-touch-icon"
     />
     <link rel="icon" type="image/x-icon" href="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6738bafe6ed6615bdc9d2f62_Frame%201144.svg"></link>
-    <style>
-        html,
-        body {
-        overflow: hidden;
-        height: 100%;
-        }
-
-        body::-webkit-scrollbar {
-        width: 8px;
-        }
-
-        /* Track */
-        body::-webkit-scrollbar-track {
-        background: #c0c0c0;
-        border-radius: 4px;
-        }
-
-        /* Handle */
-        body::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 4px;
-        }
-
-        /* Handle on hover */
-        body::-webkit-scrollbar-thumb:hover {
-        background: #555;
-        }
-
-        .nav-menu-icon, .w-icon-nav-menu:before {
-            display: none;
-        }
-
-        @media screen and (max-width: 350px) {
-            .company-logo-nav {
-                height: 10px;
-            }
-
-            .company-logo-nav.slassh {
-                left: 40px;
-            }
-
-            .ultra-confidentiel {
-                gap: 6px;
-            }
-
-            .primary-button.contact-us {
-                width: 84px;
-                height: 28px;
-            }
-        }
-    </style>
+    <style></style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="body-black">
     <div
@@ -684,7 +635,7 @@
     >
       <div class="nav-container w-container">
         <div class="wrapper-logo-nd-nav-links">
-          <a
+          <!-- <a
             data-w-id="d210aff6-50c9-1211-2555-c39c706be8a4"
             href="#"
             class="brand w-nav-brand"
@@ -709,7 +660,62 @@
               data-w-id="88be718f-ca88-6c18-bf39-e0cb9e8a8db3"
               alt=""
               class="company-logo-nav slassh"
+          /></a> -->
+
+          <a
+            href="#"
+            class="brand w-nav-brand"
+            ><div class="ultra-confidentiel">
+              <img
+                src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736eca123a8a70d1e511657_Logo.webp"
+                loading="lazy"
+                alt=""
+                class="company-logo-nav"
+              /><img
+                src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736eca2dca43faadea1f804_Logo%20(2).webp"
+                loading="lazy"
+                alt=""
+                class="company-logo-nav"
+              />
+            </div>
+            <img
+              src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736f0d3013796d6eb6dfd6e_Logo.svg"
+              loading="lazy"
+              alt=""
+              class="company-logo-nav slassh"
           /></a>
+
+          <a 
+            href="#"
+            class="brand _2 w-nav-brand"
+            >
+            <div class="ultra-confidentiel-wrapper">
+                <div class="ultra-confidentiel _2">
+                    <img
+                    src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736eca123a8a70d1e511657_Logo.webp"
+                    loading="lazy"
+                    data-w-id="1887f2e1-cbcd-1552-9ac6-ee61c95dadd0"
+                    alt=""
+                    class="company-logo-nav"
+                    />
+                    <img
+                    src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736eca2dca43faadea1f804_Logo%20(2).webp"
+                    loading="lazy"
+                    data-w-id="89430729-d319-1730-40d0-a00715395cd5"
+                    alt=""
+                    class="company-logo-nav"
+                    />
+                </div>
+                <img
+                    src="https://cdn.prod.website-files.com/6731eb232fcc314baee41b00/6736f0d3013796d6eb6dfd6e_Logo.svg"
+                    loading="lazy"
+                    data-w-id="88be718f-ca88-6c18-bf39-e0cb9e8a8db3"
+                    alt=""
+                    class="company-logo-nav slassh"
+                />
+            </div>
+          </a>
+
           <div
             data-w-id="181c2952-3e78-faf2-d983-06f0159206c6"
             class="line-v hide-mobile"
@@ -2351,6 +2357,20 @@
             `;
             document.head.appendChild(styleElement);
         }, 4000);
+
+        // Wait for the animation to complete and update styles
+        window.addEventListener('load', function() {
+            var brand2 = document.querySelector('.brand._2');
+            var brand = document.querySelector('.brand');
+
+            // Wait for the animation to finish
+            var wrapper = document.querySelector('.ultra-confidentiel-wrapper');
+            wrapper.addEventListener('animationend', function() {
+                // Hide .brand._2 and show .brand after animation ends
+                brand2.style.display = 'none';
+                brand.style.opacity = 1;
+            });
+        });
     </script>
   </body>
 </html>

@@ -10219,7 +10219,7 @@
           return function (J, ne) {
             (ne = ne || {}),
               V(b),
-              ne.open === !0 && j(b, !0),
+              ne.open === !0 && j(b),
               ne.open === !1 && N(b, { immediate: !0 });
           };
         }
@@ -11609,7 +11609,7 @@ Webflow.require("ix2").init({
           delay: 0,
           easing: "",
           duration: 0,
-          actionListId: "a-19",
+          actionListId: "a-30",
           affectedElements: {},
           playInReverse: false,
           autoStopEventId: "e-28",
@@ -15502,14 +15502,14 @@ Webflow.require("ix2").init({
       useFirstGroupAsInitialState: true,
       createdOn: 1731617344342,
     },
-    "a-19": {
-      id: "a-19",
-      title: "Page Load Animation",
+    "a-30": {
+      id: "a-30",
+      title: "Page Load Animation 2",
       actionItemGroups: [
         {
           actionItems: [
             {
-              id: "a-19-n",
+              id: "a-30-n",
               actionTypeId: "GENERAL_DISPLAY",
               config: {
                 delay: 0,
@@ -15522,7 +15522,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-2",
+              id: "a-30-n-2",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -15536,24 +15536,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-3",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "",
-                duration: 500,
-                target: {
-                  id: "6731eb232fcc314baee41b06|d210aff6-50c9-1211-2555-c39c706be8a4",
-                },
-                xValue: 192,
-                yValue: 46,
-                xUnit: "%",
-                yUnit: "vh",
-                zUnit: "PX",
-              },
-            },
-            {
-              id: "a-19-n-4",
+              id: "a-30-n-4",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
                 delay: 0,
@@ -15568,7 +15551,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-5",
+              id: "a-30-n-5",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15584,7 +15567,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-6",
+              id: "a-30-n-6",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
                 delay: 0,
@@ -15599,7 +15582,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-10",
+              id: "a-30-n-7",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15615,7 +15598,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-12",
+              id: "a-30-n-8",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15631,7 +15614,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-18",
+              id: "a-30-n-9",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15648,7 +15631,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-19",
+              id: "a-30-n-10",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15665,7 +15648,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-24",
+              id: "a-30-n-11",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -15679,7 +15662,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-27",
+              id: "a-30-n-12",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15695,7 +15678,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-28",
+              id: "a-30-n-13",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15711,7 +15694,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-29",
+              id: "a-30-n-14",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15731,7 +15714,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-7",
+              id: "a-30-n-15",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
                 delay: 0,
@@ -15750,7 +15733,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-8",
+              id: "a-30-n-16",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
                 delay: 1200,
@@ -15769,7 +15752,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-9",
+              id: "a-30-n-17",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15789,7 +15772,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-11",
+              id: "a-30-n-18",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15805,7 +15788,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-16",
+              id: "a-30-n-19",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -15819,7 +15802,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-33",
+              id: "a-30-n-20",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15835,7 +15818,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-35",
+              id: "a-30-n-21",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15851,7 +15834,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-34",
+              id: "a-30-n-22",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 0,
@@ -15867,7 +15850,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-13",
+              id: "a-30-n-23",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 200,
@@ -15883,7 +15866,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-20",
+              id: "a-30-n-24",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 200,
@@ -15900,7 +15883,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-21",
+              id: "a-30-n-25",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 200,
@@ -15921,24 +15904,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-14",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 1000,
-                easing: "",
-                duration: 1000,
-                target: {
-                  id: "6731eb232fcc314baee41b06|d210aff6-50c9-1211-2555-c39c706be8a4",
-                },
-                xValue: 0,
-                yValue: 0,
-                xUnit: "%",
-                yUnit: "vh",
-                zUnit: "PX",
-              },
-            },
-            {
-              id: "a-19-n-15",
+              id: "a-30-n-27",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
                 delay: 1000,
@@ -15953,7 +15919,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-25",
+              id: "a-30-n-28",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 1100,
@@ -15967,7 +15933,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-17",
+              id: "a-30-n-29",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 1200,
@@ -15981,7 +15947,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-22",
+              id: "a-30-n-30",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 1200,
@@ -15998,7 +15964,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-23",
+              id: "a-30-n-31",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 1200,
@@ -16015,7 +15981,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-26",
+              id: "a-30-n-32",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 1200,
@@ -16029,7 +15995,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-31",
+              id: "a-30-n-33",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 1200,
@@ -16045,7 +16011,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-32",
+              id: "a-30-n-34",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 1200,
@@ -16061,7 +16027,7 @@ Webflow.require("ix2").init({
               },
             },
             {
-              id: "a-19-n-30",
+              id: "a-30-n-35",
               actionTypeId: "TRANSFORM_MOVE",
               config: {
                 delay: 1200,
@@ -16081,7 +16047,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-37",
+              id: "a-30-n-36",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16099,7 +16065,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-38",
+              id: "a-30-n-37",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16117,7 +16083,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-39",
+              id: "a-30-n-38",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16135,7 +16101,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-40",
+              id: "a-30-n-39",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16153,7 +16119,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-41",
+              id: "a-30-n-40",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16171,7 +16137,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-43",
+              id: "a-30-n-41",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16189,7 +16155,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-44",
+              id: "a-30-n-42",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16207,7 +16173,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-45",
+              id: "a-30-n-43",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16225,7 +16191,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-46",
+              id: "a-30-n-44",
               actionTypeId: "STYLE_OPACITY",
               config: {
                 delay: 0,
@@ -16243,7 +16209,7 @@ Webflow.require("ix2").init({
         {
           actionItems: [
             {
-              id: "a-19-n-36",
+              id: "a-30-n-45",
               actionTypeId: "GENERAL_DISPLAY",
               config: {
                 delay: 10,
