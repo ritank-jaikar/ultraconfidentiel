@@ -122,14 +122,14 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width: 768px) {
     .ultra-confidentiel-wrapper {
-        transform: translate(-50%, -50%) scale(2);
+        transform: translate(-50%, -50%) scale(1.6);
     }
 
     @keyframes brand-loading {
         0% {
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%) scale(2);
+            transform: translate(-50%, -50%) scale(1.6);
         }
         100% {
             top: 20px;
