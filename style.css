@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   .ultra-confidentiel {
-    gap: 6px;
+    gap: 7px;
   }
 
   .primary-button.contact-us {
@@ -122,19 +122,48 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width: 768px) {
     .ultra-confidentiel-wrapper {
-        transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(2);
     }
 
     @keyframes brand-loading {
         0% {
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(2);
         }
         100% {
             top: 20px;
             left: 0;
             transform: translate(0, 0) scale(1);
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .company-logo-nav {
+      height: 13px;
+    }
+  
+    .company-logo-nav.slassh {
+      left: 52px;
+    }
+  
+    .ultra-confidentiel {
+      gap: 9px;
+    }
+}
+
+/* Repeat */
+@media screen and (max-width: 350px) {
+    .company-logo-nav {
+      height: 10px;
+    }
+  
+    .company-logo-nav.slassh {
+      left: 40px;
+    }
+  
+    .ultra-confidentiel {
+      gap: 7px;
     }
 }
