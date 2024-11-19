@@ -118,6 +118,10 @@ body::-webkit-scrollbar-thumb:hover {
             transform: translate(0, 0) scale(1);
         }
     }
+
+    .projects {
+        overflow: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
