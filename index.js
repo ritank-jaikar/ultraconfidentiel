@@ -11491,7 +11491,7 @@ Webflow.require("ix2").init({
         actionTypeId: "GENERAL_CONTINUOUS_ACTION",
         config: { actionListId: "a-16", affectedElements: {}, duration: 0 },
       },
-      mediaQueries: ["main", "medium"],
+      mediaQueries: ["main"],
       target: {
         id: "6731eb232fcc314baee41b06|ba658e22-4722-03b1-fe6a-ad4614eaa1d0",
         appliesTo: "ELEMENT",
@@ -11528,7 +11528,7 @@ Webflow.require("ix2").init({
         actionTypeId: "GENERAL_CONTINUOUS_ACTION",
         config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
       },
-      mediaQueries: ["main", "medium"],
+      mediaQueries: ["main"],
       target: {
         id: "6731eb232fcc314baee41b06|ba658e22-4722-03b1-fe6a-ad4614eaa1d1",
         appliesTo: "ELEMENT",
@@ -11936,43 +11936,6 @@ Webflow.require("ix2").init({
         effectIn: null,
       },
       createdOn: 1731762635675,
-    },
-    "e-39": {
-      id: "e-39",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "SCROLLING_IN_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
-        config: { actionListId: "a-29", affectedElements: {}, duration: 0 },
-      },
-      mediaQueries: ["small", "tiny"],
-      target: {
-        id: "6731eb232fcc314baee41b06|ba658e22-4722-03b1-fe6a-ad4614eaa1d1",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "6731eb232fcc314baee41b06|ba658e22-4722-03b1-fe6a-ad4614eaa1d1",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: [
-        {
-          continuousParameterGroupId: "a-29-p",
-          smoothing: 50,
-          startsEntering: false,
-          addStartOffset: false,
-          addOffsetValue: 50,
-          startsExiting: false,
-          addEndOffset: false,
-          endOffsetValue: 50,
-        },
-      ],
-      createdOn: 1731763480292,
     },
   },
   actionLists: {
@@ -14653,6 +14616,23 @@ Webflow.require("ix2").init({
                   },
                 },
                 {
+                  id: "a-17-n-45",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
                   id: "a-17-n-7",
                   actionTypeId: "STYLE_OPACITY",
                   config: {
@@ -14665,6 +14645,23 @@ Webflow.require("ix2").init({
                     },
                     value: 0.2,
                     unit: "",
+                  },
+                },
+                {
+                  id: "a-17-n-46",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|a7a11673-624a-12e6-913d-85dd30338083",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
                   },
                 },
                 {
@@ -14744,6 +14741,57 @@ Webflow.require("ix2").init({
                     zUnit: "PX",
                   },
                 },
+                {
+                  id: "a-17-n-47",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|07a94047-d60d-7bf5-4656-dbb4223a9881",
+                    },
+                    widthValue: 52,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-56",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-57",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|a7a11673-624a-12e6-913d-85dd30338083",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
               ],
             },
             {
@@ -14784,7 +14832,7 @@ Webflow.require("ix2").init({
               ],
             },
             {
-              keyframe: 20,
+              keyframe: 16,
               actionItems: [
                 {
                   id: "a-17-n",
@@ -14834,10 +14882,44 @@ Webflow.require("ix2").init({
                     unit: "",
                   },
                 },
+                {
+                  id: "a-17-n-48",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|07a94047-d60d-7bf5-4656-dbb4223a9881",
+                    },
+                    widthValue: 52,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-50",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
               ],
             },
             {
-              keyframe: 26,
+              keyframe: 20,
               actionItems: [
                 {
                   id: "a-17-n-33",
@@ -14889,7 +14971,7 @@ Webflow.require("ix2").init({
               ],
             },
             {
-              keyframe: 32,
+              keyframe: 26,
               actionItems: [
                 {
                   id: "a-17-n-2",
@@ -14903,7 +14985,7 @@ Webflow.require("ix2").init({
                       selector: ".our-projects-wrapper-mover",
                       selectorGuids: ["139093e1-e1dd-3c96-2053-05f176848a8e"],
                     },
-                    xValue: -58,
+                    xValue: -56,
                     xUnit: "%",
                     yUnit: "PX",
                     zUnit: "PX",
@@ -14986,10 +15068,44 @@ Webflow.require("ix2").init({
                     unit: "",
                   },
                 },
+                {
+                  id: "a-17-n-49",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|07a94047-d60d-7bf5-4656-dbb4223a9881",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-51",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 52,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
               ],
             },
             {
-              keyframe: 60,
+              keyframe: 46,
               actionItems: [
                 {
                   id: "a-17-n-4",
@@ -15003,7 +15119,7 @@ Webflow.require("ix2").init({
                       selector: ".our-projects-wrapper-mover",
                       selectorGuids: ["139093e1-e1dd-3c96-2053-05f176848a8e"],
                     },
-                    xValue: -58,
+                    xValue: -56,
                     xUnit: "%",
                     yUnit: "PX",
                     zUnit: "PX",
@@ -15039,10 +15155,44 @@ Webflow.require("ix2").init({
                     unit: "",
                   },
                 },
+                {
+                  id: "a-17-n-52",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|a7a11673-624a-12e6-913d-85dd30338083",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-54",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 52,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
               ],
             },
             {
-              keyframe: 66,
+              keyframe: 52,
               actionItems: [
                 {
                   id: "a-17-n-35",
@@ -15094,7 +15244,7 @@ Webflow.require("ix2").init({
               ],
             },
             {
-              keyframe: 72,
+              keyframe: 58,
               actionItems: [
                 {
                   id: "a-17-n-5",
@@ -15191,10 +15341,44 @@ Webflow.require("ix2").init({
                     unit: "",
                   },
                 },
+                {
+                  id: "a-17-n-53",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|a7a11673-624a-12e6-913d-85dd30338083",
+                    },
+                    widthValue: 52,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
+                {
+                  id: "a-17-n-55",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      id: "6731eb232fcc314baee41b06|7950b8d4-0b04-4eb3-fe9a-a70031e600ba",
+                    },
+                    widthValue: 28,
+                    widthUnit: "vw",
+                    heightUnit: "PX",
+                  },
+                },
               ],
             },
             {
-              keyframe: 80,
+              keyframe: 66,
               actionItems: [
                 {
                   id: "a-17-n-17",
@@ -15279,7 +15463,7 @@ Webflow.require("ix2").init({
               ],
             },
             {
-              keyframe: 86,
+              keyframe: 72,
               actionItems: [
                 {
                   id: "a-17-n-18",
@@ -15533,21 +15717,6 @@ Webflow.require("ix2").init({
                 },
                 value: 1,
                 unit: "",
-              },
-            },
-            {
-              id: "a-30-n-4",
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "",
-                duration: 500,
-                target: {
-                  id: "6731eb232fcc314baee41b06|d210aff6-50c9-1211-2555-c39c706be8a4",
-                },
-                xValue: 3.2,
-                yValue: 3.2,
-                locked: true,
               },
             },
             {
@@ -15903,21 +16072,6 @@ Webflow.require("ix2").init({
         },
         {
           actionItems: [
-            {
-              id: "a-30-n-27",
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 1000,
-                easing: "",
-                duration: 1000,
-                target: {
-                  id: "6731eb232fcc314baee41b06|d210aff6-50c9-1211-2555-c39c706be8a4",
-                },
-                xValue: 1,
-                yValue: 1,
-                locked: true,
-              },
-            },
             {
               id: "a-30-n-28",
               actionTypeId: "STYLE_OPACITY",
@@ -18992,66 +19146,6 @@ Webflow.require("ix2").init({
       ],
       useFirstGroupAsInitialState: true,
       createdOn: 1731652910484,
-    },
-    "a-29": {
-      id: "a-29",
-      title: "Our Projects Animation Container 2",
-      continuousParameterGroups: [
-        {
-          id: "a-29-p",
-          type: "SCROLL_PROGRESS",
-          parameterLabel: "Scroll",
-          continuousActionGroups: [
-            {
-              keyframe: 20,
-              actionItems: [
-                {
-                  id: "a-29-n-10",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".our-projects-wrapper-mover",
-                      selectorGuids: ["139093e1-e1dd-3c96-2053-05f176848a8e"],
-                    },
-                    xValue: 0,
-                    xUnit: "%",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 72,
-              actionItems: [
-                {
-                  id: "a-29-n-28",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".our-projects-wrapper-mover",
-                      selectorGuids: ["139093e1-e1dd-3c96-2053-05f176848a8e"],
-                    },
-                    xValue: -102,
-                    xUnit: "%",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      createdOn: 1731607334573,
     },
   },
   site: {
